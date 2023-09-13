@@ -118,7 +118,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          Alex Liu's Chat Bot
+          Alex Liu&apos;s Chat Bot
         </div>
         <div className={styles["sidebar-sub-title"]}>
           A mirror site of ChatGPT 
