@@ -30,9 +30,9 @@ export default function RootLayout({
 }) {
   const ogType = "website";
   const ogTitle = "Alex Liu's Chat Bot";
-  const ogDescription = "Alex Liu's Chat Bot";
+  const ogDescription = "Mirror site of ChatGPT Chat Bot.";
   const ogImage = "/apple-touch-icon.png";
-  const appleTouchIcon = "https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/chat_logo.png";
+  const appleTouchIcon = "https://gcore.jsdelivr.net/gh/AlexLiu2022/resources/img/chat_logo-removebg.png";
 
   return (
     <html lang="en">
