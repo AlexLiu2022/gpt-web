@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Alex Liu's Chat Bot",
-  description: "Mirror site of ChatGPT Chat Bot.",
+  title: "Chat Liu",
+  description: "Alex Liu's Chat Bot. A mirror site of ChatGPT Chat Bot.",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -29,8 +29,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const ogType = "website";
-  const ogTitle = "Alex Liu's Chat Bot";
-  const ogDescription = "Mirror site of ChatGPT Chat Bot.";
+  const ogTitle = "Chat Liu";
+  const ogDescription = "Alex Liu's Chat Bot. A mirror site of ChatGPT Chat Bot.";
   const ogImage = "/apple-touch-icon.png";
   const appleTouchIcon = "https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/chat_logo-removebg.png";
 
