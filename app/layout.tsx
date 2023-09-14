@@ -34,6 +34,11 @@ export default function RootLayout({
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Alex Liu's Chat Bot">
+        <meta property="og:description" content="Alex Liu's Chat Bot">
+        <meta property="og:image" content="/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
       </head>
       <body>{children}</body>
     </html>
