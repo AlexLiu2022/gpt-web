@@ -31,9 +31,9 @@ export default function RootLayout({
   const ogType = "website";
   const ogTitle = "Chat Liu";
   const ogDescription = "Alex Liu's Chat Bot. A mirror site of ChatGPT Chat Bot.";
-  const ogImage = "/apple-touch-icon.png";
-  const appleTouchIcon = "https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/chat_logo-removebg.png";
-
+  const ogImage = "https://cdn.jsdelivr.net/gh/AlexLiu2022/resources/img/chat_logo.png";
+  const appleTouchIcon = "/apple-touch-icon.png";
+  
   return (
     <html lang="en">
       <head>
@@ -43,7 +43,7 @@ export default function RootLayout({
         <meta property="og:description" content={ogDescription} /> {/* 添加自定义的<meta>标签 */}
         <meta property="og:image" content={ogImage} /> {/* 添加自定义的<meta>标签 */}
         <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} /> {/* 添加自定义的<link>标签 */}
-        <link rel="manifest" href="/site.webmanifest"></link>
+        <link rel="manifest" href="/manifest.json"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
       <body>{children}</body>
